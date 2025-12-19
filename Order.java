@@ -1,10 +1,10 @@
 public class Order
 {
-    private static int idCounter = 1;
+    private static int idCounter = 1; //Статический счётчик для генерации уникальных ID заказов
     private final int id;
     private final String dishName;
     private final int waiterId;
-    private final long creationTime;
+    private final long creationTime; //Время создания заказа
 
     public Order(String dishName, int waiterId)
     {
@@ -21,4 +21,5 @@ public class Order
 
     @Override
     public String toString() { return String.format("order №%d ('%s') from the waiter %d", id, dishName, waiterId); }
+
 }
