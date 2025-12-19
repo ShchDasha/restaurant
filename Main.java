@@ -7,7 +7,6 @@ public class Main
     private static final int CHEFS_COUNT = 2;
     private static final int KITCHEN_QUEUE = 10; //Ограничение очереди на кухню
     private static final int COMPLETED_QUEUE = 20; //Ограничение очереди готовых заказов
-    private static final int COMPLETED_QUEUE = 20;
     private static final int SIMULATION_SECONDS = 30;
 
     public static void main(String[] args)
